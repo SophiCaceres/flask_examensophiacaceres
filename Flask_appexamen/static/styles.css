@@ -1,0 +1,135 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e8f8; /* rosado pastel */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.card {
+    background-color: white;
+    width: 420px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(150, 70, 180, 0.2); /* sombra lila suave */
+    border: 1px solid #e2b6f0;
+}
+
+/* Título */
+.card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7a1fa2; /* morado */
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #7a1fa2;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d8a6e0;
+    border-radius: 5px;
+    background-color: #fff8ff;
+}
+
+/* Botón */
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #c350d3; /* rosado/morado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover del botón */
+button:hover {
+    background-color: #6e1977;
+}
+
+/* Resultados */
+.resultado {
+    margin-top: 25px;
+}
+
+.resultado p {
+    margin: 8px 0;
+}
+
+/* Mensaje de error */
+.error {
+    margin-top: 15px;
+    background-color: #ffccd9;
+    color: #a3002b;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff99b4;
+    text-align: center;
+    font-weight: bold;
+}
+/* ============================= */
+/* ESTILOS DEL MENÚ PRINCIPAL    */
+/* ============================= */
+
+.menu-body {
+    background-color: #f5e6fc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-container {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-btn {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: 0.25s;
+}
+
+/* Botón morado */
+.btn-purple {
+    background-color: #8a0ee0;
+}
+
+.btn-purple:hover {
+    background-color: #6c0bb0;
+}
+
+/* Botón rosado */
+.btn-pink {
+    background-color: #ff4fcf;
+}
+
+.btn-pink:hover {
+    background-color: #d93cac;
+}
